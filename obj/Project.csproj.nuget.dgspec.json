@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blend\\Desktop\\Project\\Project\\Project.csproj": {}
+    "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\blend\\Desktop\\Project\\Project\\Project.csproj": {
+    "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blend\\Desktop\\Project\\Project\\Project.csproj",
+        "projectUniqueName": "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\blend\\Desktop\\Project\\Project\\Project.csproj",
-        "packagesPath": "C:\\Users\\blend\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blend\\Desktop\\Project\\Project\\obj\\",
+        "projectPath": "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/Project.csproj",
+        "packagesPath": "/Users/flamurxhafa/.nuget/packages/",
+        "outputPath": "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\blend\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flamurxhafa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }
