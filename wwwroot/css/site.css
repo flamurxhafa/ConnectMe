@@ -23,11 +23,7 @@ body {
     margin: 0;
 }
 
-body {
-    background: #CCFBFE;
-    overflow: hidden;
-    font-family: sans-serif;
-}
+
 
 .tinder {
     height: 88vh;
