@@ -25,50 +25,45 @@ public class InteractionsController : Controller
     }
 
     [HttpPost]
-    public async Task Add(string id, string interactionType)
+    public void Add(string id, string interactionType)
     {
         var loggedUser = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
         var person = _userManager.Users.FirstOrDefault(x => x.Id == id);
-        if (id != null)
+
+        var interaction = new Interactions()
         {
-            var interaction = new Interactions()
-            {
-                Id = Guid.NewGuid().ToString(),
-                UserId1 = loggedUser,
-                UserId2 = id,
-                InteractionDate = DateTime.Now,
-                InteractionType = interactionType
-            };
+            Id = Guid.NewGuid().ToString(),
+            UserId1 = loggedUser,
+            UserId2 = id,
+            InteractionDate = DateTime.Now,
+            InteractionType = interactionType
+        };
 
-            _db.Interactions.Add(interaction);
-            _db.SaveChanges();
-        }
+        _db.Interactions.AddAsync(interaction);
+        _db.SaveChangesAsync();
 
-        var interactions = _db.Interactions.ToList();
-        var result = _db.Interactions.FromSqlRaw("Exec GetInteractionType @id1, @id2",
+        var result = _db.Interactions.FromSqlRaw("Exec GetInteractions @id1, @id2",
             new SqlParameter("@id1", id),
             new SqlParameter("@id2", loggedUser)).ToList();
 
         if (result.Count >= 2)
         {
-            AddMatches(interactions, loggedUser, id);
-            _db.SaveChanges();
-        }
-    }
-
-    public void AddMatches(List<Interactions> interactions, string userId, string id)
-    {
-        for (int i = 0; i < interactions.Count; i++)
-        {
             Match match = new Match()
             {
                 Id = Guid.NewGuid().ToString(),
-                Userid1 = userId,
+                Userid1 = loggedUser,
                 Userid2 = id,
                 match = true
             };
 
             _db.Matches.Add(match);
+            _db.SaveChanges();
         }
+    }
+
+    [HttpPost]
+    public void Delete(string id)
+    {
+        
     }
 }

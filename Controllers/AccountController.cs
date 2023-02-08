@@ -86,6 +86,10 @@ namespace ProfileMatching.Controllers
                     {
                         return RedirectToAction("Index", "Home");
                     }
+
+                    string returnUrl = HttpContext.Request.Query["returnUrl"];
+                    if (!String.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
+                        return Redirect(returnUrl);
                 }
 
                 return View();

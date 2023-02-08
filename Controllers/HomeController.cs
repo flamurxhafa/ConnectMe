@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using NuGet.Protocol;
 using ProfileMatching.Data;
 using ProfileMatching.Models;
 using ProfileMatching.Models.ViewModels;
+using ProfileMatching.SD;
 
 namespace ProfileMatching.Controllers;
 
@@ -60,11 +62,11 @@ public class HomeController : Controller
         var matches = _context.Matches.ToList();
         var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
         List<UserViewModel> userViewModels = new List<UserViewModel>();
-        for (int i = 0; i<matches.Count; i++)
+        for (int i = 0; i < matches.Count; i++)
         {
             if (userId == matches[i].Userid1)
             {
-                var user = _userManager.Users.FirstOrDefault(x=>x.Id == matches[i].Userid2);
+                var user = _userManager.Users.FirstOrDefault(x => x.Id == matches[i].Userid2);
                 userViewModels.Add(new UserViewModel()
                 {
                     Id = user.Id,
@@ -77,36 +79,43 @@ public class HomeController : Controller
                 });
             }
         }
+
         return View(userViewModels);
     }
 
+    [Authorize(Roles = SDClass.Admin)]
     public IActionResult Dashboard()
     {
-        var users = _userManager.Users.ToList();
-        List<UserViewModel> userViewModels = new List<UserViewModel>();
-        for (int i = 0; i < users.Count; i++)
+        if (User.IsInRole(SDClass.Admin))
         {
-            userViewModels.Add(new UserViewModel()
+            var users = _userManager.Users.ToList();
+            List<UserViewModel> userViewModels = new List<UserViewModel>();
+            for (int i = 0; i < users.Count; i++)
             {
-                Id = users[i].Id,
-                Name = users[i].Name,
-                Lastname = users[i].Lastname,
-                Type = users[i].Type,
-                Role = users[i].Role,
-                Height = users[i].Height,
-                Gender = users[i].Gender,
-                Age = users[i].Age,
-                Bio = users[i].Bio,
-            });
+                userViewModels.Add(new UserViewModel()
+                {
+                    Id = users[i].Id,
+                    Name = users[i].Name,
+                    Lastname = users[i].Lastname,
+                    Type = users[i].Type,
+                    Role = users[i].Role,
+                    Height = users[i].Height,
+                    Gender = users[i].Gender,
+                    Age = users[i].Age,
+                    Bio = users[i].Bio,
+                });
+            }
+
+            return View(userViewModels);
+        }
+        else
+        {
+            string returnUrl = HttpContext.Request.Query["returnUrl"];
+            if (!String.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
+                return Redirect(returnUrl);
         }
 
-        return View(userViewModels);
-    }
-
-    [HttpPost]
-    public async Task Delete()
-    {
-        return;
+        return RedirectToAction("Index", "Home");
     }
 
     public IActionResult Privacy()

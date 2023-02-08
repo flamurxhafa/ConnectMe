@@ -9,6 +9,7 @@ public class Interactions
 {
     [Key]
     public string Id { get; set; }
+
     [ForeignKey("User1")]
     public string? UserId1 { get; set; }
     public User User1 { get; set; }

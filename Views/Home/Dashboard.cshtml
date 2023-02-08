@@ -1,36 +1,36 @@
-﻿@using Microsoft.CodeAnalysis.VisualBasic.Syntax
-@model List<ProfileMatching.Models.ViewModels.UserViewModel>
+﻿@model List<ProfileMatching.Models.ViewModels.UserViewModel>
 
 @{
     ViewBag.Title = "title";
-    Layout = "_Layout";
+    Layout = null;
 }
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <style>
     .side-nav {
-      background-color: #343a40;
-      height: 100%;
-      position: fixed;
-      top: 56px;
-      left: 0;
-      width: 200px;
-      overflow-x: hidden;
-      padding-top: 40px;
-    }
-    .side-nav a {
-      color: white;
-      padding: 10px 20px;
-      display: block;
-      text-decoration: none;
-    }
-    .main-content {
-      margin-left: 200px;
-      padding: 56px 20px 0 20px;
-    }
-  </style>
+          background-color: #343a40;
+          height: 100%;
+          position: fixed;
+          top: 56px;
+          left: 0;
+          width: 200px;
+          overflow-x: hidden;
+          padding-top: 40px;
+        }
+        .side-nav a {
+          color: white;
+          padding: 10px 20px;
+          display: block;
+          text-decoration: none;
+        }
+        .main-content {
+          margin-left: 200px;
+          padding: 56px 20px 0 20px;
+        }
+      </style>
     <title>User Dashboard</title>
 </head>
 <body class="bg-gray-100">
@@ -63,7 +63,7 @@
                 <td class="border px-4 py-2">@user.Age</td>
                 <td class="border px-4 py-2">@user.Bio</td>
                 <td class="border px-4 py-2">
-                    <button asp-route-id="@user.Id" asp-action="Delete" asp-controller="Home" class="bg-red-500 text-white px-4 py-2 rounded-lg delete-user" data-user-id="1">Delete</button>
+                    <button asp-route-id="@user.Id" asp-action="Delete" asp-controller="Interactions" class="bg-red-500 text-white px-4 py-2 rounded-lg delete-user" data-user-id="1">Delete</button>
                 </td>
             </tr>
         }
