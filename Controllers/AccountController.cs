@@ -42,6 +42,7 @@ namespace ProfileMatching.Controllers
                         Lastname = model.Fullname.Split(' ')[1],
                         Gender = model.Gender,
                         Email = model.Email,
+                        Type = model.Type,
                         Role = SDClass.Simple,
                         EmailConfirmed = true,
                         NormalizedEmail = model.Email.ToUpper(),

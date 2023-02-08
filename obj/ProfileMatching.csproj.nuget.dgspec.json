@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\GitHub\\ConnectMe\\ProfileMatching.csproj": {}
+    "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\GitHub\\ConnectMe\\ProfileMatching.csproj": {
+    "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\ConnectMe\\ProfileMatching.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj",
         "projectName": "ProfileMatching",
-        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\ConnectMe\\ProfileMatching.csproj",
+        "projectPath": "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\ConnectMe\\obj\\",
+        "outputPath": "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
