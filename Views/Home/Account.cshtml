@@ -1,5 +1,4 @@
-﻿@using Microsoft.AspNetCore.Mvc.Formatters
-@model ProfileMatching.Models.ViewModels.UserViewModel
+﻿@model ProfileMatching.Models.ViewModels.UserViewModel
 
 @{
     Layout = "_Layout";
@@ -84,11 +83,10 @@
                                         <input class="form-check-input typeRadioButtons" onload="SetChecked(this)" type="radio" name="typeOptions" id="businessmanRadio" value="business">
                                         <label class="form-check-label" for="businessmanRadio">Business</label>
                                     </div>
-                                    <input type="text" asp-for="Type" name="type" value="" id="typeInput" hidden>
+                                    <input type="text" asp-for="Type" name="type" value="@Model.Type" id="typeInput" hidden>
                                     <span asp-validation-for="Type"></span>
                                 </div>
                             </div>
-
 
                             <div class="row mb-3">
                                 <div class="col-sm-3">
@@ -131,17 +129,15 @@
 
 <!-- Optional JavaScript -->
 <script >
-    window.addEventListener('load', () => {
-        let normal = document.getElementById('normalRadio');
-        let typeValue =document.getElementById('typeInput').value; 
-        
-        if(typeValue === 'normal'){
-            normal.checked = true;
-        }
-        else if (typeValue === 'business'){
-            document.getElementById('businessmanRadio').checked = true;
-        }
-    })
+    let normal = document.getElementById('normalRadio');
+    let typeValue =document.getElementById('typeInput').value; 
+    
+    if(typeValue === 'normal'){
+        normal.checked = true;
+    }
+    else if (typeValue === 'business'){
+        document.getElementById('businessmanRadio').checked = true;
+    }
 
     let submit = document.getElementById('submitUpdate');
     submit.addEventListener('click', () => {

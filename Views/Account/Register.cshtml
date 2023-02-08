@@ -204,7 +204,20 @@
                         <label class="form-check-label" for="femaleRadio">Female</label>
                     </div>
                     <input asp-for=" Gender" name="gender" hidden id="gender" />
-                    <span asp-validation-for=" Gender"></span>
+                    <span asp-validation-for="Gender"></span>
+                </div>
+                <div class="gender">
+                    <label asp-for="Gender" for="gender">Type:</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input typeButton" type="radio" name="typeOptions" id="normalRadio" value="normal">
+                        <label class="form-check-label" for="maleRadio">Normal</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input typeButton" type="radio" name="typeOptions" id="businessRadio" value="business">
+                        <label class="form-check-label" for="femaleRadio">Business</label>
+                    </div>
+                    <input asp-for="Type" name="type" hidden id="typeInput" />
+                    <span asp-validation-for="Type"></span>
                 </div>
                 <button id="registerSubmit" type="submit" class="w-100 mt-2 btn btn-lg btn-primary">Register</button>
             </form>
@@ -220,6 +233,17 @@
         for (let i = 0; i < radioButtons.length; i++) {
             if (radioButtons[i].checked) {
                 gender.value = radioButtons[i].value;
+            }
+        }
+    })
+    
+    submit.addEventListener('click', () => {
+        let typeButtons = document.getElementsByClassName('typeButton');
+        let typeInput = document.getElementById('typeInput');
+
+        for (let i = 0; i < typeButtons.length; i++) {
+            if (typeButtons[i].checked) {
+                typeInput.value = typeButtons[i].value;
             }
         }
     })
