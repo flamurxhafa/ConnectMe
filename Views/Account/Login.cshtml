@@ -1,0 +1,22 @@
+﻿@model ProfileMatching.Models.ViewModels.LoginViewModel
+
+<head>
+    <title>Login</title>
+</head>
+<body>
+<div>
+    <form method="post">
+        <div class="d-flex flex-column col-6">
+            <div class="d-flex flex-column">
+                <input asp-for="Email" type="text">
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="d-flex flex-column">
+                <input asp-for="Password" type="password">
+                <span asp-validation-for="Password"></span>
+            </div>
+            <button type="submit">Sign In</button>
+        </div>
+    </form>
+</div>
+</body>

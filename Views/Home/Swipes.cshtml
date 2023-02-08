@@ -1,0 +1,116 @@
+﻿@model List<ProfileMatching.Models.ViewModels.UserViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"/>
+    <style>
+      .card-img-left {
+        background-color: purple;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 20px;
+      }
+    </style>
+</head>
+<div class="container my-5">
+    <h1> Swipes</h1>
+    <div class="row">
+        @foreach (var user in Model)
+        {
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class="card">
+                    <img
+                        class="card-img-top"
+                        src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/bologna-1.jpg"
+                        alt="Friend 1"/>
+                    <div class="card-body">
+                        <h4 class="card-title">@user.Name @user.Lastname</h4>
+                        <button
+                            type="button"
+                            class="btn btn-primary"
+                            data-toggle="modal"
+                            data-target="#friend1Modal">
+                            CLICK Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div
+                class="modal fade"
+                id="friend1Modal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="friend1ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="friend1ModalLabel">
+                                Swipe Details
+                            </h5>
+                            <button
+                                type="button"
+                                class="close"
+                                data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                <img
+                                    class="card-img-top"
+                                    src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/bologna-1.jpg"
+                                    alt="Friend 1"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">@user.Name @user.Lastname</h4>
+                                    <p class="card-text">First Name: @user.Name</p>
+                                    <p class="card-text">Last Name: @user.Lastname</p>
+                                    <p class="card-text">Age: @user.Age</p>
+                                    <p class="card-text">Swiped left at 12:35 01/02/2022 </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>

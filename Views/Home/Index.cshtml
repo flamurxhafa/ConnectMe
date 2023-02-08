@@ -1,45 +1,141 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model List<ProfileMatching.Models.ViewModels.UserViewModel>
 
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"/>
+    <link rel="stylesheet" href="~/css/style.css"> <script
+                                                       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                                                       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                                                       crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
+    <style>
+      .navbar-brand {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .navbar-brand img {
+        max-width: 100%;
+      }
+    </style>
+    <title>Responsive Navbar</title>
+</head>
+<body>
 <div class="tinder">
     <div class="tinder--status">
         <i class="fa fa-remove"></i>
         <i class="fa fa-heart"></i>
     </div>
-
-    <div class="tinder--cards">
-        <div class="tinder--card">
-            <img src="https://placeimg.com/600/300/people">
-            <h3>Demo card 1</h3>
-            <p>This is a demo for Tinder like swipe cards</p>
-        </div>
-        <div class="tinder--card">
-            <img src="https://placeimg.com/600/300/animals">
-            <h3>Demo card 2</h3>
-            <p>This is a demo for Tinder like swipe cards</p>
-        </div>
-        <div class="tinder--card">
-            <img src="https://placeimg.com/600/300/nature">
-            <h3>Demo card 3</h3>
-            <p>This is a demo for Tinder like swipe cards</p>
-        </div>
-        <div class="tinder--card">
-            <img src="https://placeimg.com/600/300/tech">
-            <h3>Demo card 4</h3>
-            <p>This is a demo for Tinder like swipe cards</p>
-        </div>
-        <div class="tinder--card">
-            <img src="https://placeimg.com/600/300/arch">
-            <h3>Demo card 5</h3>
-            <p>This is a demo for Tinder like swipe cards</p>
-        </div>
-    </div>
-
-    <div class="tinder--buttons">
-        <button id="nope">X<i class="fa fa-remove"></i></button>
-        <button id="love">V<i class="fa fa-heart"></i></button>
-    </div>
+    @if (Model != null)
+    {
+        @foreach (var user in Model)
+        {
+            <div class="tinder--cards">
+                <div class="tinder--card">
+                    <input value="@user.Id" hidden/>
+                    <img src="https://placeimg.com/600/300/people">
+                    <h3>@user.Name @user.Lastname</h3>
+                    <p>@user.Bio</p>
+                </div>
+            </div>
+        }
+    }
 </div>
+
+<div class="tinder--buttons">
+    <button id="nope">X<i class="fa fa-remove"></i></button>
+    <button id="love">V<i class="fa fa-heart"></i></button>
+</div>
+<script>
+
+
+    var tinderContainer = document.querySelector('.tinder');
+    var allCards = document.querySelectorAll('.tinder--card');
+    var nope = document.getElementById('nope');
+    var love = document.getElementById('love');
+
+    function initCards(card, index) {
+      var newCards = document.querySelectorAll('.tinder--card:not(.removed)');
+
+      newCards.forEach(function (card, index) {
+        card.style.zIndex = allCards.length - index;
+        card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 30 * index + 'px)';
+        card.style.opacity = (10 - index) / 10;
+      });
+
+      tinderContainer.classList.add('loaded');
+    }
+
+    initCards();
+
+    function createButtonListener(love) {
+      return function (event) {
+        var cards = document.querySelectorAll('.tinder--card:not(.removed)');
+        var moveOutWidth = document.body.clientWidth * 1.5;
+
+        if (!cards.length) return false;
+
+        var card = cards[0];
+
+        card.classList.add('removed');
+
+        if (love) {
+          card.style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)';
+          swipe = 'right';
+        } else {
+          card.style.transform = 'translate(-' + moveOutWidth + 'px, -100px) rotate(30deg)';
+          swipe = 'left';
+        }
+        
+        var userId = card.querySelector("input[value]").value;
+        
+        var obj = {
+            id: userId,
+            interactionType: swipe
+        }
+        
+        AddInteraction(obj);
+        
+        initCards();
+
+        event.preventDefault();
+      };
+    }
+    
+    function AddInteraction(obj){
+        fetch(`/Interactions/Add?id=${obj.id}&interactionType=${obj.interactionType}`, {
+            method: 'post',
+        }).then(response => {
+            return response.json();
+        })
+    }
+
+    var nopeListener = createButtonListener(false);
+    var loveListener = createButtonListener(true);
+    
+
+    nope.addEventListener('click', nopeListener);
+    love.addEventListener('click', loveListener);
+    
+</script>
+</body>
+</html>
