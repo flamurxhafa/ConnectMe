@@ -8,10 +8,268 @@
 
 
 
+
+
+
+.footer {
+    background: #221E22;
+    padding-top: 34px;
+    padding-bottom: 41px;
+}
+/*END FOOTER SOCIAL DESIGN*/
+.single_footer {
+}
+
+@media only screen and (max-width:768px) {
+    .single_footer {
+        margin-bottom: 30px;
+    }
+}
+
+.single_footer h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+    .single_footer h4::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 40px;
+        background: #fff;
+        margin-top: 20px;
+    }
+
+.single_footer p {
+    color: #fff;
+}
+
+.single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single_footer ul li {
+}
+
+.single_footer ul li a {
+color: #fff;
+-webkit-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+line-height: 36px;
+font-size: 15px;
+text-transform: capitalize;
+}
+
+.single_footer ul li a:hover {
+    color: #ff3666;
+}
+
+.single_footer_address {
+}
+
+.single_footer_address ul {
+}
+
+.single_footer_address ul li {
+color: #fff;
+}
+
+.single_footer_address ul li span {
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+}
+
+.contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+/*START NEWSLETTER CSS*/
+.subscribe {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.subscribe__input {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 5px;
+    color: #333;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 0.4px;
+    margin: 0;
+    padding: 0 150px 0 20px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+    .subscribe__input {
+        padding: 0 50px 0 20px;
+    }
+}
+
+.subscribe__btn {
+    background-color: transparent;
+    border-radius: 0 25px 25px 0;
+    color: #01c7e9;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+}
+
+    .subscribe__btn i {
+        transition: all 0.3s ease 0s;
+    }
+
+@media only screen and (max-width:768px) {
+    .subscribe__btn {
+        right: 0px;
+    }
+}
+
+.subscribe__btn:hover i {
+    color: #ff3666;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+/*END NEWSLETTER CSS*/
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {
+    margin-top: 40px;
+}
+
+    .social_profile ul {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .social_profile ul li {
+            float: left;
+        }
+
+            .social_profile ul li a {
+                text-align: center;
+                border: 0px;
+                text-transform: uppercase;
+                transition: all 0.3s ease 0s;
+                margin: 0px 5px;
+                font-size: 18px;
+                color: #fff;
+                border-radius: 30px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                display: block;
+                border: 1px solid rgba(255,255,255,0.2);
+            }
+
+@media only screen and (max-width:768px) {
+    .social_profile ul li a {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .social_profile ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.social_profile ul li a:hover {
+    background: #ff3666;
+    border: 1px solid #ff3666;
+    color: #fff;
+    border: 0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+    margin-top: 70px;
+    padding-top: 40px;
+    color: #fff;
+    font-size: 15px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    text-align: center;
+}
+
+    .copyright a {
+        color: #01c7e9;
+        transition: all 0.2s ease 0s;
+    }
+
+        .copyright a:hover {
+            color: #ff3666;
+        }
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.tinder--buttons button {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+header {
+    background: #EFE5FF;
+    padding: 12px 0;
+}
+
+.noUi-connect {
+    background: #44355B !important;
+}
+
+.tinder--buttons button.clicked {
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+a.nav-link {
+    color: #31263E;
+    font-weight: 500;
+}
+
 .tinder {
-    width: 100vw;
-    height: 55vh;
-    overflow: hidden;
+    margin-top: 70px;
+    width: 100%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -19,8 +277,24 @@
     transition: opacity 0.1s ease-in-out;
 }
 
+.filters {
+    margin-top: 40px;
+}
+
+    .filters h6 {
+        margin-bottom: 15px;
+        color: #333333c2;
+    }
+
 .loaded.tinder {
     opacity: 1;
+}
+
+.noUi-horizontal .noUi-tooltip {
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    left: 50%;
+    bottom: -160% !important;
 }
 
 .tinder--status {
@@ -33,15 +307,15 @@
     pointer-events: none;
 }
 
-.tinder--status i {
-    font-size: 100px;
-    opacity: 0;
-    transform: scale(0.3);
-    transition: all 0.2s ease-in-out;
-    position: absolute;
-    width: 100px;
-    margin-left: -50px;
-}
+    .tinder--status i {
+        font-size: 100px;
+        opacity: 0;
+        transform: scale(0.3);
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        width: 100px;
+        margin-left: -50px;
+    }
 
 .tinder_love .fa-heart {
     opacity: 0.7;
@@ -66,12 +340,13 @@
 
 .tinder--card {
     display: inline-block;
-    width: 90vw;
-    max-width: 400px;
-    height: 52vh;
-    background: #FFFFFF;
-    padding-bottom: 40px;
+    width: 170vw;
+    max-width: 448px;
+    height: auto;
+    background: #44355b;
+    padding-bottom: 55px;
     border-radius: 8px;
+    color: #fff;
     overflow: hidden;
     position: absolute;
     will-change: transform;
@@ -79,7 +354,8 @@
     cursor: -webkit-grab;
     cursor: -moz-grab;
     cursor: grab;
-    top: 10px;
+    top: -5px;
+    box-shadow: 4px 5px 46px 0px #33333324;
 }
 
 .moving.tinder--card {
@@ -90,8 +366,11 @@
 }
 
 .tinder--card img {
-    max-width: 100%;
     pointer-events: none;
+    max-width:600px;
+    max-height:600px;
+    width:auto;
+    height:auto;
 }
 
 .tinder--card h3 {
@@ -110,25 +389,72 @@
 
 .tinder--buttons {
     text-align: center;
-    margin-bottom: 174px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
+}
+
+    .tinder--buttons button svg {
+        width: 30px;
+        height: 30px;
+    }
+
+button#love svg {
+    fill: #44355b;
+}
+
+button#nope {
+    fill: #44355b;
+}
+
+.tinder--buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 12px #33333338;
 }
 
 .tinder--buttons button {
     border-radius: 50%;
-    line-height: 60px;
-    width: 60px;
-    border: 0;
-    background: #FFFFFF;
-    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #efe5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 8px;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #44355b;
+}
+
+    .tinder--buttons button:active {
+        transform: scale(0.95);
+    }
+
+button.navbar-toggler svg {
+    width: 16px;
+    height: 25px;
+    fill: #44355b;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        transition: all 0.2s ease-in-out;
+        padding-top: 20px;
+    }
 }
 
 .tinder--buttons button:focus {
     outline: 0;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #efe5ff !important;
+    border: 1px solid #44355b !important;
+    border-radius: 0.25rem;
 }
 
 .tinder--buttons i {
@@ -143,3 +469,225 @@
 .fa-remove {
     color: #CDD6DD;
 }
+
+
+section {
+    padding: 60px 0;
+    /* min-height: 100vh;*/
+}
+
+
+/*END FOOTER SOCIAL DESIGN*/
+.single_footer {
+}
+
+@media only screen and (max-width:768px) {
+    .single_footer {
+        margin-bottom: 30px;
+    }
+}
+
+.single_footer h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+    .single_footer h4::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 40px;
+        background: #fff;
+        margin-top: 20px;
+    }
+
+.single_footer p {
+    color: #fff;
+}
+
+.single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .single_footer ul li {
+    }
+
+        .single_footer ul li a {
+            color: #fff;
+            -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            line-height: 36px;
+            font-size: 15px;
+            text-transform: capitalize;
+        }
+
+            .single_footer ul li a:hover {
+                color: #ff3666;
+            }
+
+.single_footer_address {
+}
+
+    .single_footer_address ul {
+    }
+
+        .single_footer_address ul li {
+            color: #fff;
+        }
+
+            .single_footer_address ul li span {
+                font-weight: 400;
+                color: #fff;
+                line-height: 28px;
+            }
+
+.contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+/*START NEWSLETTER CSS*/
+.subscribe {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.subscribe__input {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 5px;
+    color: #333;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 0.4px;
+    margin: 0;
+    padding: 0 150px 0 20px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+    .subscribe__input {
+        padding: 0 50px 0 20px;
+    }
+}
+
+.subscribe__btn {
+    background-color: transparent;
+    border-radius: 0 25px 25px 0;
+    color: #01c7e9;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+}
+
+    .subscribe__btn i {
+        transition: all 0.3s ease 0s;
+    }
+
+@media only screen and (max-width:768px) {
+    .subscribe__btn {
+        right: 0px;
+    }
+}
+
+.subscribe__btn:hover i {
+    color: #ff3666;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+/*END NEWSLETTER CSS*/
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {
+    margin-top: 40px;
+}
+
+    .social_profile ul {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .social_profile ul li {
+            float: left;
+        }
+
+            .social_profile ul li a {
+                text-align: center;
+                border: 0px;
+                text-transform: uppercase;
+                transition: all 0.3s ease 0s;
+                margin: 0px 5px;
+                font-size: 18px;
+                color: #fff;
+                border-radius: 30px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                display: block;
+                border: 1px solid rgba(255,255,255,0.2);
+            }
+
+@media only screen and (max-width:768px) {
+    .social_profile ul li a {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .social_profile ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.social_profile ul li a:hover {
+    background: #ff3666;
+    border: 1px solid #ff3666;
+    color: #fff;
+    border: 0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+    margin-top: 70px;
+    padding-top: 40px;
+    color: #fff;
+    font-size: 15px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    text-align: center;
+}
+
+    .copyright a {
+        color: #01c7e9;
+        transition: all 0.2s ease 0s;
+    }
+
+        .copyright a:hover {
+            color: #ff3666;
+        }

@@ -16,4 +16,7 @@ public class User : IdentityUser
     public string Gender { get; set; }
     [AllowNull]
     public string Location { get; set; }
+    public string imagePath { get; set; }
+
+    //public string ImagePath { get; set; }
 }

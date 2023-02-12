@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj": {}
+    "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/ProfileMatching.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj": {
+    "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/ProfileMatching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj",
+        "projectUniqueName": "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/ProfileMatching.csproj",
         "projectName": "ProfileMatching",
-        "projectPath": "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\ProfileMatching.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\cSharp projects\\ProfileMatching\\ProfileMatching\\obj\\",
+        "projectPath": "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/ProfileMatching.csproj",
+        "packagesPath": "/Users/flamurxhafa/.nuget/packages/",
+        "outputPath": "/Users/flamurxhafa/Desktop/Desktop/Behamics/public/ConnectMe/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/flamurxhafa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Kerberos.NET": {
+              "target": "Package",
+              "version": "[4.6.4, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -82,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

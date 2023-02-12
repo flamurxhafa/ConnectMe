@@ -11,7 +11,8 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous"/>
-    <link rel="stylesheet" href="~/css/style.css"> <script
+    <link rel="stylesheet" href="~/css/style.css">
+        <script
                                                        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                                                        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
                                                        crossorigin="anonymous"></script>
@@ -25,103 +26,119 @@
         crossorigin="anonymous"></script>
 
     <style>
-      .navbar-brand {
-        width: 200px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .navbar-brand img {
-        max-width: 100%;
-      }
+     
     </style>
     <title>Responsive Navbar</title>
 </head>
 <body>
-<div class="tinder">
-    <div class="tinder--status">
-        <i class="fa fa-remove"></i>
-        <i class="fa fa-heart"></i>
-    </div>
-    @if (Model != null)
-    {
-        @foreach (var user in Model)
-        {
+    <div class="container">
+        <div class="tinder">
             <div class="tinder--cards">
-                <div class="tinder--card">
-                    <input value="@user.Id" hidden/>
-                    <img src="https://placeimg.com/600/300/people">
-                    <h3>@user.Name @user.Lastname</h3>
-                    <p>@user.Bio</p>
-                </div>
+
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var user in Model)
+                    {
+                        <div class="tinder--card">
+                            <input value="@user.Id" hidden />
+                            <img src="@user.imagePath">
+                            <h3>@user.Name @user.Lastname</h3>
+                            <p>@user.Bio</p>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <h1>No People in your area</h1>
+
+                }
             </div>
-        }
-    }
-</div>
+        </div>
 
-<div class="tinder--buttons">
-    <button id="nope">X<i class="fa fa-remove"></i></button>
-    <button id="love">V<i class="fa fa-heart"></i></button>
-</div>
+    </div>
+    <div class="container" style="
+    margin-top: 290px;
+">
+        <div class="controls">
+            <div class="tinder--buttons">
+                <button id="nope"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" /></svg></button>
+                <button id="love"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" /></svg></button>
+            </div>
+            </div>
+        </div>
+
 <script>
-
-
     var tinderContainer = document.querySelector('.tinder');
     var allCards = document.querySelectorAll('.tinder--card');
     var nope = document.getElementById('nope');
     var love = document.getElementById('love');
 
     function initCards(card, index) {
-      var newCards = document.querySelectorAll('.tinder--card:not(.removed)');
+        var newCards = document.querySelectorAll('.tinder--card:not(.removed)');
+        let firstCard = false
+        newCards.forEach(function (card, index) {
+            if (firstCard == false) {
+                firstCard = true
+            } else {
+                card.style.display = "none"
 
-      newCards.forEach(function (card, index) {
-        card.style.zIndex = allCards.length - index;
-        card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 30 * index + 'px)';
-        card.style.opacity = (10 - index) / 10;
-      });
+            }
+            //card.style.zIndex = allCards.length - index;
+            //card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 30 * index + 'px)';
+            //card.style.opacity = (10 - index) / 10;
+            //card.style.display = "none"
+        });
 
-      tinderContainer.classList.add('loaded');
+        tinderContainer.classList.add('loaded');
     }
 
     initCards();
 
     function createButtonListener(love) {
-      return function (event) {
-        var cards = document.querySelectorAll('.tinder--card:not(.removed)');
-        var moveOutWidth = document.body.clientWidth * 1.5;
+        return function (event) {
+            var cards = document.querySelectorAll('.tinder--card:not(.removed)');
+            var moveOutWidth = document.body.clientWidth * 1.5;
 
-        if (!cards.length) return false;
+            if (!cards.length) return false;
 
-        var card = cards[0];
+            var card = cards[0];
 
-        card.classList.add('removed');
+            card.classList.add('removed');
 
-        if (love) {
-          card.style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)';
-          swipe = 'right';
-        } else {
-          card.style.transform = 'translate(-' + moveOutWidth + 'px, -100px) rotate(30deg)';
-          swipe = 'left';
-        }
-        
-        var userId = card.querySelector("input[value]").value;
-        
-        var obj = {
-            id: userId,
-            interactionType: swipe
-        }
-        
-        AddInteraction(obj);
-        
-        initCards();
+            if (love) {
+                card.style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)';
+                swipe = 'right';
+            } else {
+                card.style.transform = 'translate(-' + moveOutWidth + 'px, -100px) rotate(30deg)';
+                swipe = 'left';
+            }
+            if (cards[1]) {
+                cards[1].style.display = "block"
+            } else {
+                let html = `<h1>No People in your area</h1>`
+                var tmpEl = document.createElement("div");
 
-        event.preventDefault();
-      };
+                tmpEl.innerHTML = html;
+
+                html = tmpEl.firstChild;
+                document.querySelector(".tinder--cards").append(html)
+            }
+            var userId = card.querySelector("input[value]").value;
+
+            var obj = {
+                id: userId,
+                interactionType: swipe
+            }
+
+            AddInteraction(obj);
+
+            initCards();
+
+            event.preventDefault();
+        };
     }
-    
-    function AddInteraction(obj){
+
+    function AddInteraction(obj) {
         fetch(`/Interactions/Add?id=${obj.id}&interactionType=${obj.interactionType}`, {
             method: 'post',
         }).then(response => {
@@ -131,11 +148,9 @@
 
     var nopeListener = createButtonListener(false);
     var loveListener = createButtonListener(true);
-    
+
 
     nope.addEventListener('click', nopeListener);
-    love.addEventListener('click', loveListener);
-    
-</script>
+    love.addEventListener('click', loveListener);</script>
 </body>
 </html>

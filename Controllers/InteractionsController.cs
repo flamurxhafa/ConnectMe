@@ -39,8 +39,8 @@ public class InteractionsController : Controller
             InteractionType = interactionType
         };
 
-        _db.Interactions.AddAsync(interaction);
-        _db.SaveChangesAsync();
+         _db.Interactions.Add(interaction);
+         _db.SaveChanges();
 
         var result = _db.Interactions.FromSqlRaw("Exec GetInteractions @id1, @id2",
             new SqlParameter("@id1", id),
@@ -53,7 +53,8 @@ public class InteractionsController : Controller
                 Id = Guid.NewGuid().ToString(),
                 Userid1 = loggedUser,
                 Userid2 = id,
-                match = true
+                match = true,
+                matchDate = DateTime.Now
             };
 
             _db.Matches.Add(match);

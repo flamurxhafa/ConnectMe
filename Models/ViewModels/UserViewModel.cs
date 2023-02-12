@@ -13,4 +13,7 @@ public class UserViewModel
     public double Height { get; set; }
     public string Bio { get; set; }
     public string Gender { get; set; }
+
+    public IFormFile? Image { get; set; }
+    public string imagePath { get; set; }
 }

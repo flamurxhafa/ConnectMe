@@ -6,70 +6,132 @@
     <title>@ViewData["Title"] - ProfileMatching</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/css/style.css.css" asp-append-version="true"/>
+    @*<link rel="stylesheet" href="~/css/style.css" asp-append-version="true"/>*@
     <link rel="stylesheet" href="~/ProfileMatching.styles.css" asp-append-version="true"/>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="@Url.Action("Index", "Home")">
-            <img src="logo.png" alt="Logo"/>
-        </a>
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="@Url.Action("Index", "Home")">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("Account", "Home")">Account</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="@Url.Action("Swipes", "Home")">Swipes</a>
-                </li>
-                @if (User.Identity.IsAuthenticated)
-                {
-                    @if (User.IsInRole(SDClass.Admin))
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Dashboard", "Home")">Dashboard</a>
+    <header style="
+    padding: 0 0 0 0;
+">
+        <div class="header-container" style="
+    max-width: 60%;
+    margin: 0 auto;
+">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                    <img src="~/images/logo.png" alt="Logo" />
+                </a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" /></svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" style="
+    justify-content: right;
+">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Index", "Home" )">Home</a>
+
                         </li>
-                    }
-                    <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Logout", "Account")">Logout</a>
-                    </li>
-                }
-                else
-                {
-                    <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Login", "Account")">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Register", "Account")">Register</a>
-                    </li>
-                }
-            </ul>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Account", "Home" )">Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Swipes", "Home" )">Matches</a>
+                            </li>
+                            @if (User.IsInRole(SDClass.Admin))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Dashboard", "Home" )">Dashboard</a>
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Logout", "Account" )">Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Login", "Account" )">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Register", "Account" )">Register</a>
+                            </li>
+                        }
+                </div>
+            </nav>
         </div>
-    </nav>
-</header>
+    </header>
 <div class="">
     <main role="main" class="">
         @RenderBody()
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2023 - ProfileMatching - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+<footer class="border-top footer text-muted" style="
+/*    margin-top: 18%;*/
+margin-top:8%;
+">
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 col-xs-12">
+                    <div class="single_footer">
+                        <h4>ConnectMe</h4>
+                        <ul>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Your Swipes</a></li>
+                            <li><a href="#">Logout</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><a href="#">Find Us</a></li>
+                            <li><a href="#">Location</a></li>
+                            <li><a href="#">About US</a></li>
+                            <li><a href="#">Call Us : +38345-333-333</a></li>
+                            <li><a href="#">Find Your Swipes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Subscribe today</h4>
+                        <div class="signup_form">
+                            <form action="#" class="subscribe">
+                                <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                                <button type="button" class="subscribe__btn"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="social_profile">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <p class="copyright">Copyright © 2023 <a href="#">ConnectMe</a>.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 <script src="~/js/site.js" asp-append-version="true"></script>

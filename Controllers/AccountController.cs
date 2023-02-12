@@ -47,7 +47,8 @@ namespace ProfileMatching.Controllers
                         EmailConfirmed = true,
                         NormalizedEmail = model.Email.ToUpper(),
                         LockoutEnabled = false,
-                        UserName = model.Fullname.Split(' ')[0] + model.Fullname.Split(' ')[1],
+                        UserName = model.Email,
+                        imagePath = @"https://bootdey.com/img/Content/avatar/avatar6.png"
                     };
 
                     var result = await _userManager.CreateAsync(user, model.Password);
@@ -56,6 +57,9 @@ namespace ProfileMatching.Controllers
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         return RedirectToAction("Index", "Home");
+                    }
+                    else {
+                        ModelState.AddModelError("Email", "This email is already registered");
                     }
                 }
 
@@ -81,6 +85,13 @@ namespace ProfileMatching.Controllers
                 if (ModelState.IsValid)
                 {
                     var user = _context.Users.FirstOrDefault(x => x.Email == model.Email);
+                    if(user == null)
+                    {
+                        ModelState.AddModelError("Email", "You need to register first");
+                        return View(model);
+
+
+                    }
                     var result = await _signInManager.PasswordSignInAsync(user.UserName, model.Password, false,
                         lockoutOnFailure: false);
                     if (result.Succeeded)

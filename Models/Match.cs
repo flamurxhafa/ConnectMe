@@ -18,4 +18,6 @@ public class Match
     public User User2 { get; set; }
     
     public bool match { get; set; }
+
+    public DateTime matchDate { get; set; }
 }

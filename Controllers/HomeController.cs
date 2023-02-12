@@ -36,9 +36,16 @@ public class HomeController : Controller
         var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
         List<UserViewModel> userViewModels = new List<UserViewModel>();
 
+        var interactions = _context.Interactions.ToList();
+
+
+
+
         for (int i = 0; i < users.Count; i++)
         {
-            if (users[i].Id != userId)
+            var interaction = interactions.Find(x => (x.UserId1 == userId && x.UserId2 == users[i].Id));
+
+            if (users[i].Id != userId && interaction== null)
             {
                 userViewModels.Add(new UserViewModel()
                 {
@@ -49,6 +56,7 @@ public class HomeController : Controller
                     Gender = users[i].Gender,
                     Age = users[i].Age,
                     Bio = users[i].Bio,
+                    imagePath= users[i].imagePath
                 });
             }
         }
@@ -64,19 +72,41 @@ public class HomeController : Controller
         List<UserViewModel> userViewModels = new List<UserViewModel>();
         for (int i = 0; i < matches.Count; i++)
         {
-            if (userId == matches[i].Userid1)
+            if (userId == matches[i].Userid1 )
             {
                 var user = _userManager.Users.FirstOrDefault(x => x.Id == matches[i].Userid2);
-                userViewModels.Add(new UserViewModel()
+                if (user != null)
                 {
-                    Id = user.Id,
-                    Name = user.Name,
-                    Lastname = user.Lastname,
-                    Height = user.Height,
-                    Gender = user.Gender,
-                    Age = user.Age,
-                    Bio = user.Bio,
-                });
+                    userViewModels.Add(new UserViewModel()
+                    {
+                        Id = user.Id,
+                        Name = user.Name,
+                        Lastname = user.Lastname,
+                        Height = user.Height,
+                        Gender = user.Gender,
+                        Age = user.Age,
+                        Bio = user.Bio,
+                        imagePath = user.imagePath
+                    });
+                }
+
+            }else if (userId == matches[i].Userid2) {
+                var user = _userManager.Users.FirstOrDefault(x => x.Id == matches[i].Userid1);
+                if (user != null)
+                {
+                    userViewModels.Add(new UserViewModel()
+                    {
+                        Id = user.Id,
+                        Name = user.Name,
+                        Lastname = user.Lastname,
+                        Height = user.Height,
+                        Gender = user.Gender,
+                        Age = user.Age,
+                        Bio = user.Bio,
+                        imagePath = user.imagePath
+
+                    });
+                }
             }
         }
 
@@ -143,6 +173,7 @@ public class HomeController : Controller
                 Gender = user.Gender,
                 Age = user.Age,
                 Bio = user.Bio,
+                imagePath = user.imagePath
             };
 
             return View(model);
@@ -152,31 +183,68 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Edit(UserViewModel model)
+    public async Task<IActionResult> Account(UserViewModel model)
     {
-        if (model.Email != null && model.Fullname != null && model.Type != null && model.Age != 0 &&
-            model.Height != 0 && model.Bio != null)
+        
+            
+            if (model.Email != null && model.Fullname != null && model.Type != null && model.Age != 0 &&
+                model.Height != 0 && model.Bio != null )
+            {
+           
+           
+               var user = await _userManager.FindByEmailAsync(model.Email);
+               var path = user.imagePath;
+
+               if (model.Image != null)
+                    {
+                        var fullPath = Directory.GetCurrentDirectory() + @"/wwwroot/images/" + model.Image.FileName;
+                         path = @"/images/" + model.Image.FileName;
+                        using (FileStream stream = new FileStream(fullPath, FileMode.Create))
+                        {
+                            await model.Image.CopyToAsync(stream);
+                            stream.Close();
+                        }
+                    }
+               
+
+                user.Name = model.Fullname.Split(' ')[0];
+                user.Lastname = model.Fullname.Split(' ')[1];
+                user.UserName = model.Email;
+                user.Email = model.Email;
+                user.Type = model.Type;
+                user.Height = model.Height;
+                user.Age = model.Age;
+                user.Bio = model.Bio;
+                user.imagePath = path;
+                var result = await _userManager.UpdateAsync(user);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+               
+        }
+        else
         {
             var user = await _userManager.FindByEmailAsync(model.Email);
-            user.Name = model.Fullname.Split(' ')[0];
-            user.Lastname = model.Fullname.Split(' ')[1];
-            user.UserName = model.Email;
-            user.Email = model.Email;
-            user.Type = model.Type;
-            user.Height = model.Height;
-            user.Age = model.Age;
-            user.Bio = model.Bio;
 
-            var result = await _userManager.UpdateAsync(user);
-            if (result.Succeeded)
+            model.imagePath = user.imagePath;
+            model.Name = model.Fullname.Split(' ')[0];
+            model.Lastname = model.Fullname.Split(' ')[1];
+            model.Gender = user.Gender;
+            if (model.Age == 0)
             {
-                return RedirectToAction("Index", "Home");
+                ModelState.AddModelError("Age", "This cant be 0");
+
             }
-            else
+            if (model.Height == 0)
             {
-                ModelState.AddModelError("", "None of these values can be null!");
+                ModelState.AddModelError("Height", "This cant be 0");
+
             }
+            ModelState.AddModelError("", "None of these values can be null!");
+            return View("Account",model);
         }
+        
 
         return RedirectToAction("Account", "Home");
     }
