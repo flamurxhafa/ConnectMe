@@ -10,47 +10,52 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@1.8.10/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
-    
+
         .main-content {
-          margin-left: 200px;
-          padding: 56px 20px 0 20px;
+            margin-left: 200px;
+            padding: 56px 20px 0 20px;
         }
-      </style>
+    </style>
     <title>User Dashboard</title>
 </head>
 <body class="bg-gray-100">
-<nav class="bg-gray-900 shadow py-4">
-    <div class="container mx-auto px-6">
-        <a class="text-white text-2xl font-medium" href="#">User Dashboard</a>
+    <nav class="bg-gray-900 shadow py-4">
+        <div class="container mx-auto px-6">
+            <a class="text-white text-2xl font-medium" href="#">User Dashboard</a>
+        </div>
+    </nav>
+
+    <div class="main-content container mx-auto px-6 py-12">
+        <table class="table-auto w-full">
+            <thead>
+                <tr class="bg-gray-800 text-white">
+                    <th class="px-4 py-2">Name</th>
+                    <th class="px-4 py-2">Gender</th>
+                    <th class="px-4 py-2">Age</th>
+                    <th class="px-4 py-2">Bio</th>
+                    <th class="px-4 py-2">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr class="bg-white">
+                        <td class="border px-4 py-2">@user.Name</td>
+                        <td class="border px-4 py-2">@user.Gender</td>
+                        <td class="border px-4 py-2">@user.Age</td>
+                        <td class="border px-4 py-2">@user.Bio</td>
+                        <td class="border px-4 py-2">
+                            <form asp-action="Delete" asp-controller="Interactions" method="post">
+
+                                <input type="hidden" name="id" value="@user.Id">
+
+                                <button type="submit" class="bg-red-500 text-white px-4 py-2 rounded-lg delete-user" data-user-id="1">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
     </div>
-</nav>
-
-<div class="main-content container mx-auto px-6 py-12">
-    <table class="table-auto w-full">
-        <thead>
-        <tr class="bg-gray-800 text-white">
-            <th class="px-4 py-2">Name</th>
-            <th class="px-4 py-2">Gender</th>
-            <th class="px-4 py-2">Age</th>
-            <th class="px-4 py-2">Bio</th>
-            <th class="px-4 py-2">Action</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var user in Model)
-        {
-            <tr class="bg-white">
-                <td class="border px-4 py-2">@user.Name</td>
-                <td class="border px-4 py-2">@user.Gender</td>
-                <td class="border px-4 py-2">@user.Age</td>
-                <td class="border px-4 py-2">@user.Bio</td>
-                <td class="border px-4 py-2">
-                    <button asp-route-id="@user.Id" asp-action="Delete" asp-controller="Interactions" class="bg-red-500 text-white px-4 py-2 rounded-lg delete-user" data-user-id="1">Delete</button>
-                </td>
-            </tr>
-        }
-
-        </tbody>
-    </table>
-</div>
 </body>

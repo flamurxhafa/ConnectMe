@@ -122,18 +122,23 @@ public class HomeController : Controller
             List<UserViewModel> userViewModels = new List<UserViewModel>();
             for (int i = 0; i < users.Count; i++)
             {
-                userViewModels.Add(new UserViewModel()
+                var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                if (users[i].Id != userId)
                 {
-                    Id = users[i].Id,
-                    Name = users[i].Name,
-                    Lastname = users[i].Lastname,
-                    Type = users[i].Type,
-                    Role = users[i].Role,
-                    Height = users[i].Height,
-                    Gender = users[i].Gender,
-                    Age = users[i].Age,
-                    Bio = users[i].Bio,
-                });
+                    userViewModels.Add(new UserViewModel()
+                    {
+                        Id = users[i].Id,
+                        Name = users[i].Name,
+                        Lastname = users[i].Lastname,
+                        Type = users[i].Type,
+                        Role = users[i].Role,
+                        Height = users[i].Height,
+                        Gender = users[i].Gender,
+                        Age = users[i].Age,
+                        Bio = users[i].Bio,
+                    });
+                }
             }
 
             return View(userViewModels);

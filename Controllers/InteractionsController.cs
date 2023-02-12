@@ -63,8 +63,30 @@ public class InteractionsController : Controller
     }
 
     [HttpPost]
-    public void Delete(string id)
+    public IActionResult Delete(string id)
     {
-        
+        if(id != null)
+        {
+            var user = _db.Users.FirstOrDefault(o => o.Id == id);
+            var match = _db.Matches.ToList();
+            for (var i = 0; i < match.Count; i++)
+            {
+                if (match[i].Userid1 == id || match[i].Userid2 == id)
+                {
+                    _db.Matches.Remove(match[i]);
+
+                }
+            }
+            
+
+
+
+            _db.Users.Remove(user);
+            _db.SaveChanges();
+
+            return RedirectToAction("Dashboard", "Home");
+
+        }
+        return RedirectToAction("Dashboard", "Home");
     }
 }
