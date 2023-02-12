@@ -2,30 +2,15 @@
 
 @{
     ViewBag.Title = "title";
-    Layout = null;
+    Layout = "_Layout";
 }
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@1.8.10/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
-    .side-nav {
-          background-color: #343a40;
-          height: 100%;
-          position: fixed;
-          top: 56px;
-          left: 0;
-          width: 200px;
-          overflow-x: hidden;
-          padding-top: 40px;
-        }
-        .side-nav a {
-          color: white;
-          padding: 10px 20px;
-          display: block;
-          text-decoration: none;
-        }
+    
         .main-content {
           margin-left: 200px;
           padding: 56px 20px 0 20px;
@@ -39,10 +24,7 @@
         <a class="text-white text-2xl font-medium" href="#">User Dashboard</a>
     </div>
 </nav>
-<div class="side-nav">
-    <a href="#" class="text-white block py-2">Home</a>
-    <a href="#" class="text-white block py-2">Users</a>
-</div>
+
 <div class="main-content container mx-auto px-6 py-12">
     <table class="table-auto w-full">
         <thead>
