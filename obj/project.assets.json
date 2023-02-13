@@ -11053,19 +11053,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\egzon\\.nuget\\packages\\": {}
+    "C:\\Users\\Egzon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\ProfileMatching.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\ConnectMe\\ProfileMatching.csproj",
       "projectName": "ProfileMatching",
-      "projectPath": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\ProfileMatching.csproj",
-      "packagesPath": "C:\\Users\\egzon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\ConnectMe\\ProfileMatching.csproj",
+      "packagesPath": "C:\\Users\\Egzon\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\ConnectMe\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\egzon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Egzon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11137,7 +11142,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

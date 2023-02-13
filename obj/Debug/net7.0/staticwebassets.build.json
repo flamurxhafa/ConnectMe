@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KAMJKq2sH/vK+BeceZOseES6sCQMJHJ27iQVpHQvucE=",
+  "Hash": "g5PvJpdqa/Z/Gm7XVtF2cknaaUXk5xBHgqEYheVOmJk=",
   "Source": "ProfileMatching",
   "BasePath": "_content/ProfileMatching",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ProfileMatching\\wwwroot",
       "Source": "ProfileMatching",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Egzon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ProfileMatching.styles.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ProfileMatching.styles.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "ProfileMatching.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ProfileMatching.styles.css"
+      "OriginalItemSpec": "C:\\xampp\\htdocs\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ProfileMatching.styles.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ProfileMatching.bundle.scp.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ProfileMatching.bundle.scp.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "ProfileMatching.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ProfileMatching.bundle.scp.css"
+      "OriginalItemSpec": "C:\\xampp\\htdocs\\ConnectMe\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ProfileMatching.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\.DS_Store",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\.DS_Store",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\css\\register.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\css\\register.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "css/register.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\css\\site.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\css\\site.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\css\\style.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\css\\style.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\favicon.ico",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\favicon.ico",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1156,10 +1156,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\images\\123137450_1139460533136675_747057410383338745_n.jpg",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
+      "BasePath": "_content/ProfileMatching",
+      "RelativePath": "images/123137450_1139460533136675_747057410383338745_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\123137450_1139460533136675_747057410383338745_n.jpg"
+    },
+    {
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\images\\logo.png",
+      "SourceId": "ProfileMatching",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\images\\resized_1018.jpeg",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\images\\resized_1018.jpeg",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "images/resized_1018.jpeg",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\resized_1018.jpeg"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\images\\Screenshot 2023-02-09 at 00.41.18.png",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\images\\Screenshot 2023-02-09 at 00.41.18.png",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "images/Screenshot 2023-02-09 at 00.41.18.png",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Screenshot 2023-02-09 at 00.41.18.png"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\images\\Screenshot 2023-02-11 at 15.19.47.png",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\images\\Screenshot 2023-02-11 at 15.19.47.png",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "images/Screenshot 2023-02-11 at 15.19.47.png",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Screenshot 2023-02-11 at 15.19.47.png"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\js\\site.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\js\\site.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1343,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1360,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1377,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1394,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1411,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1428,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1445,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1462,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1479,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1496,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1513,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1530,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1547,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1564,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1581,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1598,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1615,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1632,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1649,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1666,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1683,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1700,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1717,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1734,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1751,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1768,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1785,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1802,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1819,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1836,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1853,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1870,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1887,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1904,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1921,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1938,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1955,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1972,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1989,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2006,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2023,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ProfileMatching",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\egzon\\OneDrive\\Desktop\\ConnectMe\\ConnectMe\\wwwroot\\",
+      "ContentRoot": "C:\\xampp\\htdocs\\ConnectMe\\wwwroot\\",
       "BasePath": "_content/ProfileMatching",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
