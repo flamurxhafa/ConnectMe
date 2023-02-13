@@ -23,6 +23,10 @@
         float: left;
         margin-right: 20px;
       }
+      .card-img-top{
+            min-height: 350px;
+            max-height: 355px;
+      }
     </style>
 </head>
 <div class="container my-5">
@@ -42,7 +46,7 @@
                             <button type="button"
                                     class="btn btn-primary"
                                     data-toggle="modal"
-                                    data-target="#friend1Modal">
+                                    data-target="#@user.Id">
                                 Read More
                             </button>
                         </div>
@@ -51,7 +55,7 @@
 
                 <!-- Modal -->
                 <div class="modal fade"
-                     id="friend1Modal"
+                     id="@user.Id"
                      tabindex="-1"
                      role="dialog"
                      aria-labelledby="friend1ModalLabel"

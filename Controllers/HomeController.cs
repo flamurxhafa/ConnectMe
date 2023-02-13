@@ -193,7 +193,7 @@ public class HomeController : Controller
         
             
             if (model.Email != null && model.Fullname != null && model.Type != null && model.Age != 0 &&
-                model.Height != 0 && model.Bio != null )
+                model.Height != 0 && model.Bio != null && model.Bio.Length <= 170 && model.Bio.Length >= 30)
             {
            
            
@@ -245,6 +245,10 @@ public class HomeController : Controller
             {
                 ModelState.AddModelError("Height", "This cant be 0");
 
+            }
+            if (model.Bio.Length >= 170 || model.Bio.Length <= 30)
+            {
+                ModelState.AddModelError("Bio", "This cant be less than 30 and more than 170 characters");
             }
             ModelState.AddModelError("", "None of these values can be null!");
             return View("Account",model);
