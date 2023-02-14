@@ -58,8 +58,12 @@ namespace ProfileMatching.Controllers
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         return RedirectToAction("Index", "Home");
                     }
-                    else {
+                    else if (result.ToString().Contains("DuplicateUserName")) {
                         ModelState.AddModelError("Email", "This email is already registered");
+                    }
+                    else if (result.ToString().Contains("PasswordRequiresNonAlphanumeric,PasswordRequiresUpper"))
+                    {
+                        ModelState.AddModelError("Password", "This Password requires non alphanumeric characters and Upper characters");
                     }
                 }
 

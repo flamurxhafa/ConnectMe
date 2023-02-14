@@ -35,29 +35,51 @@ public class HomeController : Controller
         var users = _userManager.Users.ToList();
         var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
         List<UserViewModel> userViewModels = new List<UserViewModel>();
+        var user = users.Find(x => x.Id == userId);
+
 
         var interactions = _context.Interactions.ToList();
 
 
 
-
+        var userGender = user.Gender;
+        var userType = user.Type;
         for (int i = 0; i < users.Count; i++)
         {
             var interaction = interactions.Find(x => (x.UserId1 == userId && x.UserId2 == users[i].Id));
 
-            if (users[i].Id != userId && interaction== null)
+            if (users[i].Id != userId && interaction== null && users[i].Type == userType)
             {
-                userViewModels.Add(new UserViewModel()
+                if (userType == "business")
                 {
-                    Id = users[i].Id,
-                    Name = users[i].Name,
-                    Lastname = users[i].Lastname,
-                    Height = users[i].Height,
-                    Gender = users[i].Gender,
-                    Age = users[i].Age,
-                    Bio = users[i].Bio,
-                    imagePath= users[i].imagePath
-                });
+
+                    userViewModels.Add(new UserViewModel()
+                    {
+                        Id = users[i].Id,
+                        Name = users[i].Name,
+                        Lastname = users[i].Lastname,
+                        Height = users[i].Height,
+                        Gender = users[i].Gender,
+                        Age = users[i].Age,
+                        Bio = users[i].Bio,
+                        imagePath = users[i].imagePath
+                    });
+
+                }
+                else if(userType == "normal" && userGender != users[i].Gender)
+                {
+                    userViewModels.Add(new UserViewModel()
+                    {
+                        Id = users[i].Id,
+                        Name = users[i].Name,
+                        Lastname = users[i].Lastname,
+                        Height = users[i].Height,
+                        Gender = users[i].Gender,
+                        Age = users[i].Age,
+                        Bio = users[i].Bio,
+                        imagePath = users[i].imagePath
+                    });
+                }
             }
         }
 
